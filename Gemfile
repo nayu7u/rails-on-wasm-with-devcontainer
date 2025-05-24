@@ -64,7 +64,7 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "wasmify-rails", group: [ :development, :wasm ]
+gem "wasmify-rails", group: [ :development, :wasm ], git: "https://github.com/palkan/wasmify-rails.git", ref: "2ce2bb6674e22e54358f6136500a0b46a11ca30b"
 
 group :wasm do
   gem "tzinfo-data"

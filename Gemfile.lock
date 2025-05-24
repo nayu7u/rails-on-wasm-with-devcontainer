@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/palkan/wasmify-rails.git
+  revision: 2ce2bb6674e22e54358f6136500a0b46a11ca30b
+  ref: 2ce2bb6674e22e54358f6136500a0b46a11ca30b
+  specs:
+    wasmify-rails (0.3.2)
+      js (>= 2.6, < 3.0)
+      railties (>= 7.0, < 9.0)
+      ruby_wasm (>= 2.6, < 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -325,10 +335,6 @@ GEM
     unicode-emoji (4.0.4)
     uri (1.0.3)
     useragent (0.16.11)
-    wasmify-rails (0.3.2)
-      js (>= 2.6, < 3.0)
-      railties (>= 7.0, < 9.0)
-      ruby_wasm (>= 2.6, < 3.0)
     web-console (4.2.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -368,7 +374,7 @@ DEPENDENCIES
   thruster
   turbo-rails
   tzinfo-data
-  wasmify-rails
+  wasmify-rails!
   web-console
 
 BUNDLED WITH
